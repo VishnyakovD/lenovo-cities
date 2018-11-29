@@ -1,0 +1,146 @@
+body {
+  font-family: "lato", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+h2 small {
+  font-size: 0.5em;
+}
+
+.table {
+  margin: 50px;
+  width: 70%;
+}
+
+.table > div {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.table .table-header {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+
+.table .table-row {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.table .col-1 {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.table .col-2 {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+
+.table .col-3 {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.table .col-4 {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.table .col-5 {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+}
+
+.form {
+  position: fixed;
+  right: 0;
+  width: 20%;
+  margin: 0 30px 30px 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form .title {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.form input {
+  border-radius: 5px;
+  height: 45px;
+  font-size: 18px;
+  width: calc(100% - 20px);
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  height: 45px;
+  font-size: 18px;
+  padding: 10px 50px;
+  border-radius: 5px;
+  background: #95a5a6;
+  outline: none;
+  background: burlywood;
+  color: #734100;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.link {
+  color: burlywood;
+}
+
+.error {
+  border: 2px brown solid;
+  background: rgba(165, 42, 42, 0.205);
+}
+
+.valid {
+  border: 2px darkcyan solid;
+  background: rgba(0, 139, 139, 0.205);
+}
+/*# sourceMappingURL=App.css.map */
